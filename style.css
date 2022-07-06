@@ -6,7 +6,7 @@ h1 {
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin: 0;
 }
 
@@ -74,5 +74,63 @@ a {
     margin-bottom: 20px;
     width: 50%;
     text-align: center;
+}
 
+.container_plan {
+    margin-bottom: 100px;
+}
+
+.plan_text {
+    text-align: center;
+}
+
+.plan_cart {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.plan_family {
+    background-color: #4F9DA61A;
+    padding: 50px 20px;
+}
+
+.plan_shelter {
+    background-color: #FF59591A;
+    padding: 50px 20px;
+}
+
+.plan_education {
+    background-color: #FF59591A;
+    padding: 50px 20px;
+}
+
+.container_update {
+    text-align: center;
+}
+
+.email {
+    background-color: #FFF4D6;
+    justify-content: space-around;
+    margin: 30px 250px;
+    padding: 90px 50px;
+}
+
+.input_style {
+    border: none;
+    background-color: #d1d1d1;
+    width: 275px;
+    height: 48px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#button {
+    border: none;
+    background-color: #FF5959;
+    width: 157px;
+    height: 49px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -4px;
+    color: white;
 }

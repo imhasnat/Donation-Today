@@ -20,6 +20,10 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    font-size: 25px;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
 }
@@ -137,7 +141,7 @@ a {
     text-align: center;
 }
 
-.email {
+.input_email {
     background-color: #FFF4D6;
     justify-content: space-around;
     margin: 40px 280px;
@@ -154,7 +158,7 @@ a {
     padding-left: 20px;
 }
 
-#button {
+#input_button {
     border: none;
     background-color: #FF5959;
     width: 157px;
@@ -165,20 +169,58 @@ a {
     font-weight: bold;
 }
 
-.humble {
+.footer_humble {
     text-align: center;
     background-color: #0B0D17;
-    height: 150px;
-    padding: 40px;
+    height: 100px;
+    padding: 50px;
     margin-top: 100px;
 
 }
 
-.humble h3 {
+.footer_humble h3 {
     color: #FF5959;
 
 }
 
-.humble p {
+.footer_humble p {
     color: white;
+}
+
+.container_news {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.news_cart {
+    display: flex;
+    justify-content: space-evenly;
+    height: 300x;
+}
+
+.container_news h2 {
+
+    margin-bottom: 40px;
+}
+
+.half_width {
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px grey;
+
+}
+
+.news_cart a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: 900;
+}
+
+.half_width h4,
+p {
+    padding: 6px;
+}
+
+.news_cart img {
+    width: 100%;
+    height: 50%;
 }

@@ -203,7 +203,7 @@ a {
     margin-bottom: 40px;
 }
 
-.half_width {
+.news_width {
     width: 40%;
     box-shadow: 10px 10px 10px 10px grey;
 
@@ -215,7 +215,7 @@ a {
     font-weight: 900;
 }
 
-.half_width h4,
+.news_width h4,
 p {
     padding: 6px;
 }
